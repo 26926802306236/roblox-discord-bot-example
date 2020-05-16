@@ -1,0 +1,42 @@
+{
+  "name": "Discord.js + Noblox.js Example Bot",
+  "description": "(Made by MrCoolGuy2008WoW on roblox and OkBoomer#3424 on discord) Example for a discord/roblox rank bot.",
+  "keywords": [
+    "node",
+    "heroku",
+    "discord"
+  ],
+  "repository": "https://github.com/26926802306236/roblox-rank-bot-example",
+  "success_url": "/welcome",
+  "env": {
+    "TOKEN": {
+      "description": "A Secret Bot Token, Used To Login The BOT. Get The Token In Your App Settings.",
+      "value": ""
+    },
+    "PREFIX": {
+      "description": "A Prefix To Run Your Bot Commands.",
+      "value": ""
+    },
+    "MINRANK": {
+      "description": "The minimum someone can be ranked",
+      "value": ""
+    },
+    "MAXRANK": {
+      "description": "The maximum someone can be ranked",
+      "value": ""
+    },
+    "COOKIE": {
+      "description": "The login for your bot.",
+      "value": ""
+    },
+    "GROUPID": {
+      "description": "The Id of the group you want your rank bot want to rank.",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

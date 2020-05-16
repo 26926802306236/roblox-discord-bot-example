@@ -1,0 +1,23 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "+"
+  ],
+  "author": "MrCoolGuy2008WoW aka OkBoomer#3424",
+  "licence": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "noblox.js": "^4.5.6"
+  },
+  "devDependencies": {},
+  "license": "ISC",
+  "description": "",
+  "engines": {
+    "node": "10.x"
+  }
+}
